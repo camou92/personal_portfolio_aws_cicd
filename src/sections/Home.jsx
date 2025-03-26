@@ -4,7 +4,7 @@ import resume from '../assets/resume.pdf'
 const Home = () => {
   return (
     <section
-      id="#home"
+      id="home"
       className="min-h-screen flex flex-col justify-center items-center lg:flex-row-reverse gap-9 lg:gap-15"
     >
       <div className="text-center z-10 px-4">
@@ -15,7 +15,7 @@ const Home = () => {
         />
       </div>
       <div className="text-center font-mono z-10 px-4">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl lg:max-w-[500px] font-semibold mb-6 px-1 bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent leading-right">
+        <h1 className="text-4xl md:text-5xl lg:text-5xl lg:max-w-[500px] font-semibold mb-6 px-1 bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent leading-right">
           Mohamed Camara
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">

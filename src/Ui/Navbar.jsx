@@ -42,7 +42,7 @@ const Navbar = ({isMenuOpen, setIsMenuOpen }) => {
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a
-                href="#project"
+                href="#projects"
                 className="text-gray-300 text-lg hover:text-xl hover:text-white transition-all"
               >
                 Projets
