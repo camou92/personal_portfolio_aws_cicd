@@ -59,7 +59,7 @@ function Projects() {
                 <h3 className="font-semibold text-xl mb-4">{project.name}</h3>
                 <p className="text-gray-300 mb-4">{project.brief} </p>
                 <div className="flex flex-wrap sm:items-center gap-2 mb-4">
-                  {["ReactJs", "Aws codepipeline", "aws codedeploy", "aws s3"].map(
+                  {["ReactJs", "Aws codepipeline", "Aws codedeploy", "Aws s3"].map(
                     (tech, index) => (
                       <span
                         key={index}

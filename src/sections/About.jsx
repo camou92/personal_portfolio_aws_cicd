@@ -23,6 +23,7 @@ function About() {
     "Terraform",
     "MongoDB",
     "Sql",
+    "Postgresql",
     "Redis",
     "GraphQL",
   ];
